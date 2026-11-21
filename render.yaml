@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: dsh-antigravity-relay
+    runtime: node
+    plan: free
+    buildCommand: "echo no-build-needed"
+    startCommand: "node server.mjs"
+    healthCheckPath: /health
+    envVars:
+      - key: DSH_SERVER_ACCOUNT
+        value: admin@local.dsh
+      - key: DSH_SERVER_PASSWORD
+        value: Antigravity2026!

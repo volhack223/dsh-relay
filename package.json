@@ -1,0 +1,13 @@
+{
+  "name": "dsh-antigravity-relay",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Zero-dependency self-hosted DSH Remote Relay Server for Antigravity x dsh-go",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
